@@ -1,43 +1,49 @@
 import React from "react";
 import GoodsCard from "./GoodsCard.js";
-import './Gallery.css';
+import "./Gallery.css";
 
 const Gallery = () => {
   const products = [
     {
       id: 1,
       name: "Apple",
-      image: "/images/apple.png",
+      image:
+        "https://github.com/DanilYaremenko/Lab7/blob/gh-pages/images/apple.png?raw=true",
       price: "$1.99 per pound",
     },
     {
       id: 2,
       name: "Lime",
-      image: "/images/lime.png",
+      image:
+        "https://github.com/DanilYaremenko/Lab7/blob/gh-pages/images/lime.png?raw=true",
       price: "$0.50 each",
     },
     {
       id: 3,
       name: "Mango",
-      image: "/images/mango.png",
+      image:
+        "https://github.com/DanilYaremenko/Lab7/blob/gh-pages/images/mango.png?raw=true",
       price: "$2.99 each",
     },
     {
       id: 4,
       name: "Peach",
-      image: "/images/peach.png",
+      image:
+        "https://github.com/DanilYaremenko/Lab7/blob/gh-pages/images/peach.png?raw=true",
       price: "$2.49 per pound",
     },
     {
       id: 5,
       name: "Strawberry",
-      image: "/images/strawberry.png",
+      image:
+        "https://github.com/DanilYaremenko/Lab7/blob/gh-pages/images/strawberry.png?raw=true",
       price: "$3.99 per pound",
     },
     {
       id: 6,
       name: "Watermelon",
-      image: "/images/watermelon.png",
+      image:
+        "https://github.com/DanilYaremenko/Lab7/blob/gh-pages/images/watermelon.png?raw=true",
       price: "$0.39 per pound",
     },
   ];
